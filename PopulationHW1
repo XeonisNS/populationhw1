@@ -1,0 +1,19 @@
+/*Malcolm Ealy
+ * mxealy0001@student.stcc.edu
+ * 9/13/2021
+ * CSC-111
+ * HW1
+ * US Population over 5 years 
+ */
+public class Population {
+
+	public static void main(String[] args) {
+		System.out.println("Starting Population: " + 312032486);
+		System.out.println("After one year:      " + (312032486 + (365*24*60*60) / 7 - (365*24*60*60) / 13 + (365*24*60*60)/ 45 ));
+		System.out.println("After two years:     " + (314812582 + (365*24*60*60) / 7 - (365*24*60*60) / 13 + (365*24*60*60)/ 45 ));
+		System.out.println("After three years:   " + (317592678 + (365*24*60*60) / 7 - (365*24*60*60) / 13 + (365*24*60*60)/ 45 ));
+		System.out.println("After four years:    " + (320372774 + (365*24*60*60) / 7 - (365*24*60*60) / 13 + (365*24*60*60)/ 45 ));
+		System.out.println("After five years:    " + (323152870 + (365*24*60*60) / 7 - (365*24*60*60) / 13 + (365*24*60*60)/ 45 ));
+	}
+
+}
